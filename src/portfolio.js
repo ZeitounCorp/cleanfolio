@@ -1,71 +1,99 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: '/',
+  title: 'ZC.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Lenny Zeitoun',
+  role: 'Software Engineer, Blockchain Enthusiast',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am a software engineer with a passion for building software that improves the lives of people. I love to create things that make a difference and I am always looking to learn more. Also I am a blockchain enthusiast and looking for a job in this industry.',
+  resume: 'https://zeitouncorporate.com/public_assets/me_profile.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/lenny-zeitoun/',
+    github: 'https://github.com/ZeitounCorp',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'NodeJs (/NginX) load-balancer',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'First open source load balancer for NodeJs. This project aims to be an optimized, low-cost, easily maintainable, auto-scaling load-balancer for NodeJs applications.',
+    stack: [
+      'NodeJs',
+      'React',
+      'Express',
+      'LowDB',
+      'PM2',
+      'Docker',
+      'AWS',
+      'NginX',
+    ],
+    sourceCode: 'https://github.com/ZeitounCorp/load-balancer/',
+    livePreview: 'https://github.com/ZeitounCorp/load-balancer/',
   },
   {
-    name: 'Project 2',
+    name: 'Extend-data-structures.js',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Research around methods that I would have loved having straight out of the box on Arrays and Object, egc: .forEach on Objects, transform a 2D Array into an Object (key example: i1j0: 'foo')...",
+    stack: ['NodeJS', 'LowDB', 'Javascript'],
+    sourceCode: 'https://github.com/ZeitounCorp/extend-data-structures.js',
+    livePreview: 'https://github.com/ZeitounCorp/extend-data-structures.js',
   },
   {
-    name: 'Project 3',
+    name: 'LogForWorker',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'As a software engineer and team leader, I\'ve been working on a project that is a proof of concept for a new type of logging system. The idea is to create a system that can be used by workers to log their work and then be used by the team leader to review the logs and see what is going on. The system is built on Bash and Shell scripting.',
+    stack: ['Bash', 'Shell'],
+    sourceCode: 'https://github.com/ZeitounCorp/logForWorker',
+    livePreview: 'https://github.com/ZeitounCorp/logForWorker',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
+  'Solidity',
+  'Python',
+  'C',
+  'Java',
+  'Shell',
+  'Dart',
   'React',
+  'React Native',
+  'Angular',
+  'Vue.js',
   'Redux',
   'SASS',
-  'Material UI',
+  'HTML',
+  'CSS',
   'Git',
+  'GitHub',
+  'GitLab',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Node.js',
+  'Meteor',
+  'Express',
+  'MongoDB',
+  'Firebase',
+  'Redis',
+  'Blockchain',
+  'AWS',
+  'Docker',
+  'GCP',
+  'Heroku',
+  'Linux',
+  'Netlify',
+  'VSCode',
+  'Webstorm',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'lenny@zeitouncorporate.com',
 }
 
 export { header, about, projects, skills, contact }
